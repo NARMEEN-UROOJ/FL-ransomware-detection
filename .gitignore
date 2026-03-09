@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Large data files
+data/*.zip
+data/*.csv
+data/*.pkl
+
+# Dataset directories (actual data excluded from version control)
+data/malimg/
+data/ember/
+
+# Saved model files
+models/*.h5
+models/*.pkl
+models/*.pt
+models/*.keras
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
